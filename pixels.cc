@@ -123,7 +123,7 @@ void PixelsDiscrete::tick () {
    }
 }  
 
-void PixelsDiscrete::receiveEvent (const Event& evt) {
+voiddd PixelsDiscrete::receiveEvent (const Event& evt) {
    stringstream ss;
    ScreenMessage* messages = global->messages;
    bool recalc = false;
